@@ -16,11 +16,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "xxxx.herokuapp.com",
+            "address": "yuyutang.herokuapp.com",
             "port": 443,
             "users": [
               {
-                "id": "24b4b1e1-7a89-45f6-858c-242cf53b5bdc",
+                "id": "1d0b949c-51a4-4e8e-8fee-9ebbc3a8376a",
                 "alterId": 0,
                 "email": "t@t.tt",
                 "security": "none"
@@ -50,7 +50,7 @@ addEventListener("fetch", event => {
   event.respondWith(handleRequest(event.request))
 })
 
-const urls = ['1.herokuapp.com', '2.herokuapp.com','3.herokuapp.com','4.herokuapp.com']
+const urls = ['yuyutang.herokuapp.com', 'rainbow1996.herokuapp.com','shengfeng1996.herokuapp.com']
 async function handleRequest(request) {
    let rurl = request.url
     let url = new URL(rurl);
